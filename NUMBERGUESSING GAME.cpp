@@ -3,6 +3,7 @@
 #include <ctime>
 using namespace std;
 int main() {
+	 cout << "Hello Guys Welcome To The MY Number Guessing Game" << endl;
     srand(time(0));  
     int number = rand() % 100 + 1, guess;
 cout << "Guess the number between 1 and 100: ";
